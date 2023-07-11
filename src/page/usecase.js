@@ -5,7 +5,7 @@ import { Dropdown } from 'react-bootstrap';
 
 const UseCase = () => {
   return (
-    <div>
+    <div class="main-container">
       <div class="navbar-container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#">Peritus Solutions</a>
