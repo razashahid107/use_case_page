@@ -1,0 +1,9 @@
+.base-page {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+}
