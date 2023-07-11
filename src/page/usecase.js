@@ -6,6 +6,7 @@ import { Dropdown } from 'react-bootstrap';
 const UseCase = () => {
   return (
     <div class="main-container">
+
       <div class="navbar-container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#">Peritus Solutions</a>
@@ -39,17 +40,25 @@ const UseCase = () => {
           </div>
         </div> */}
       </div>
+
       <div class="background-image">
-        <h1>Your company's one-</h1>
-        <h1>stop engineering</h1>
-        <h1>shop</h1>
-        We take care of everything from devising strategies to deploying<br />
-        products with our dedicated teams of developers, software<br />
-        architects, and project managers.<br />
-        <h1>Feel powerful with Peritus</h1>
+        <div class="background-image-text" style={{ fontFamily: "Arial", fontSize: '20px'}}>
+          <h1 style={{fontWeight: "bold", fontStyle:'italic'}}>Your company's onestop engineering</h1>
+          <div class="background-image-text-p">
+            <p style={{fontStyle:'italic'}}>
+              We take care of everything from devising strategies to deploying<br />
+              products with our dedicated teams of developers, software<br />
+              architects, and project managers.<br />
+            </p>
+          </div>
+
+          {/* <h1>Feel powerful with Peritus</h1> */}
+        </div>
       </div>
+
+
     </div>
-      
+
   );
 }
 
