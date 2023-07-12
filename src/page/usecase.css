@@ -7,6 +7,10 @@
     display: flex;
     justify-content: center;
 } */
+.heading {
+    display: flex;
+    justify-content: center;
+}
 
 .background-image {
     background-image: url('/Users/abdurrehman/Documents/study/Work/use_case/use_case/src/img.jpg');
@@ -53,14 +57,44 @@
     height: 2px;
     background-color: #000;
     margin: 20px 0;
-  }
-  .customer-reviews-container {
+}
+
+.customer-reviews-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
-  }
-  .review-item {
+}
+
+.review-item {
     background-color: #f2f2f2;
     padding: 20px;
-  }
-      
+}
+
+
+.signup-form-container {
+    text-align: center;
+}
+
+.signup-form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.signup-form-container form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.signup-form-container input,
+.signup-form-container button {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.signup-form-container button {
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+}

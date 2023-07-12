@@ -58,6 +58,10 @@ const UseCase = () => {
 
       {/* grids listing possible services */}
       <br />
+      {/* <div className="section-divider"></div> */}
+      <h2 className='heading' style={{ fontWeight: "bold" }}><i> Our services </i></h2>
+      <br />
+      {/* <br/> */}
       <div className="services-container">
         <div className="service-item">
           <h3>SAP ERP Solutions & Business Consulting</h3>
@@ -81,10 +85,12 @@ const UseCase = () => {
       </div>
 
       <div className="section-divider"></div>
+      <h2 className='heading' style={{ fontWeight: "bold" }}><i> Why choose us? </i></h2>
+      <br />
 
       <div className='customer-reviews-container'>
         <div className='review-item'>
-          <h3>Reveiw 1</h3>
+          <h3>Review 1</h3>
           <p>ough code instead of through manual processes.
             With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
           </p>
@@ -108,6 +114,24 @@ const UseCase = () => {
           </p>
         </div>
       </div>
+
+      <div className="section-divider"></div>
+      <div className="signup-form-container">
+        <h2 className='heading' style={{ fontWeight: "bolder" }}><i> LET’S START SOMETHING NEW THEN? </i></h2>
+        <h2>Sign up for our Services</h2>
+        <form>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="City" />
+          <input type="text" placeholder="Country" />
+          <input type="text" placeholder="Postal Code" />
+          <input type="text" placeholder="Services Required" />
+
+          <button type="submit">Sign up</button>
+        </form>
+      </div>
+      
+      
     </div>
 
   );
