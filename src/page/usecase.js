@@ -57,9 +57,25 @@ const UseCase = () => {
       </div>
 
       {/* grids listing possible services */}
-      <div>
-        
+      <div className="services-container">
+        <div className="service-item">
+          <h3>Service 1</h3>
+          <p>Description of service 1</p>
+        </div>
+        <div className="service-item">
+          <h3>Service 2</h3>
+          <p>Description of service 2</p>
+        </div>
+        <div className="service-item">
+          <h3>Service 1</h3>
+          <p>Description of service 1</p>
+        </div>
+        <div className="service-item">
+          <h3>Service 2</h3>
+          <p>Description of service 2</p>
+        </div>
       </div>
+
     </div>
 
   );

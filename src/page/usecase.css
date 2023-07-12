@@ -17,6 +17,7 @@
     background-size: contain;
 
 }
+
 .background-image-text {
     padding: 5%;
 }
@@ -28,9 +29,22 @@
     /* justify-content: center; */
     /* min-height: 100vh; */
 }
+
 .main {
     padding: 0 7% 0 7%;
 }
+
 .background-image-text-p {
     padding: 2%;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.service-item {
+    background-color: #f2f2f2;
+    padding: 20px;
 }
