@@ -98,3 +98,41 @@
     border: none;
     cursor: pointer;
 }
+
+.footer-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.foot {
+    /* padding: 5%; */
+    /* display: flex; */
+    justify-content: center;
+
+}
+
+.footer-column {
+    flex: 1 1 30%;
+    margin-bottom: 20px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 5px;
+}
+
+.footer-column p {
+    margin-bottom: 5px;
+}
