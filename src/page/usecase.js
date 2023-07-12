@@ -57,23 +57,27 @@ const UseCase = () => {
       </div>
 
       {/* grids listing possible services */}
+      <br/>
       <div className="services-container">
         <div className="service-item">
-          <h3>Service 1</h3>
-          <p>Description of service 1</p>
+          <h3>SAP ERP Solutions & Business Consulting</h3>
+          <p>ough code instead of through manual processes.
+            With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+          </p>
         </div>
         <div className="service-item">
-          <h3>Service 2</h3>
-          <p>Description of service 2</p>
+          <h3>Qlik Analytics & Data Integration Platform</h3>
+          <p>ough code instead of through manual processes.
+            With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+          </p>
         </div>
         <div className="service-item">
-          <h3>Service 1</h3>
-          <p>Description of service 1</p>
+          <h3>Enterprise Cloud Solutions</h3>
+          <p>ough code instead of through manual processes.
+            With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+          </p>
         </div>
-        <div className="service-item">
-          <h3>Service 2</h3>
-          <p>Description of service 2</p>
-        </div>
+
       </div>
 
     </div>
