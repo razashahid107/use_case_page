@@ -6,7 +6,6 @@ import { Dropdown } from 'react-bootstrap';
 const UseCase = () => {
   return (
     <div>
-
       <div class="main">
         <div class="main-container">
           <div class="navbar-container">
@@ -43,27 +42,46 @@ const UseCase = () => {
         </div> */}
           </div>
         </div>
+      </div>
 
-        <div class="background-image">
-          <div class="background-image-text" style={{ fontFamily: "Arial", fontSize: '20px' }}>
-            <h1 style={{ fontWeight: "bold", fontStyle: 'italic' }}>Your company's onestop engineering</h1>
-            <div class="background-image-text-p">
+
+      <div class="background-image">
+        <div class="background-image-text" style={{ fontFamily: 'Unna', letterSpacing: '1px' }}>
+          {/* <h1 style={{ fontWeight: "bold", fontStyle: 'italic' }}>Your company's one-</h1>
+            <h1 style={{ fontWeight: "bold", fontStyle: 'italic' }}>stop engineering</h1>
+            <h1 style={{ fontWeight: "bold", fontStyle: 'italic' }}>shop</h1> */}
+          <div style={{ padding: "0 0 0 6%" }}>
+
+            <h1 style={{ color: 'unset', fontSize: '65px', fontFamily: 'Unna' }}><b>Your company's one-<br />stop engineering <br />shop </b></h1>
+            <br />
+            <p style={{ fontFamily: 'Arial', fontSize: '20px' }}>
+              We take care of everything from devising<br /> strategies to deploying products with our <br />dedicated teams of developers, software <br />architects, and project managers.
+            </p >
+            <a href='facebook.com' style={{}}>
+              <svg width="56" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m50 14 5 6-5 6" stroke="#fff"></path><circle cx="20" cy="20" r="19.625" stroke="#fff" stroke-width="0.75"></circle><path d="M25 20h30" stroke="#fff"></path></svg>
+              <span style={{ fontFamily: 'Arial', fontSize: '20px', fontWeight: 'bold' }}> Let's start your project</span>
+            </a>
+          </div>
+
+          {/* <div class="background-image-text-p">
               <p style={{ fontStyle: 'italic' }}>
                 We take care of everything from devising strategies to deploying<br />
                 products with our dedicated teams of developers, software<br />
                 architects, and project managers.<br />
               </p>
-            </div>
-          </div>
+            </div> */}
+          {/* <imag src="" /><h3>Let's start your project</h3> */}
         </div>
+      </div>
 
-        {/* grids listing possible services */}
-        <br />
-        {/* <div className="section-divider"></div> */}
-        <h2 className='heading' style={{ fontWeight: "bold" }}><i> Our services </i></h2>
+      {/* grids listing possible services */}
+      <br />
+      {/* <div className="section-divider"></div> */}
+      <div className='main'>
+        {/* <h2 className='heading' style={{ fontWeight: "bold" }}><i> Our services </i></h2> */}
         <br />
         {/* <br/> */}
-        <div className="services-container">
+        <div className="services-container" >
           <div className="service-item">
             <h3>SAP ERP Solutions & Business Consulting</h3>
             <p>ough code instead of through manual processes.
@@ -82,6 +100,51 @@ const UseCase = () => {
               With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
             </p>
           </div>
+          <div className="service-item">
+            <h3>Enterprise Cloud Solutions</h3>
+            <p>ough code instead of through manual processes.
+              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            </p>
+          </div>
+          <div className="service-item">
+            <h3>SAP ERP Solutions & Business Consulting</h3>
+            <p>ough code instead of through manual processes.
+              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            </p>
+          </div><div className="service-item">
+            <h3>SAP ERP Solutions & Business Consulting</h3>
+            <p>ough code instead of through manual processes.
+              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            </p>
+          </div>
+          <div className="service-item">
+            <h3>SAP ERP Solutions & Business Consulting</h3>
+            <p>ough code instead of through manual processes.
+              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            </p>
+          </div>
+          <div className="service-item">
+            <h3>SAP ERP Solutions & Business Consulting</h3>
+            <p>ough code instead of through manual processes.
+              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            </p>
+          </div>
+          <div className="service-item">
+            <h3>SAP ERP Solutions & Business Consulting</h3>
+            <p>ough code instead of through manual processes.
+              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            </p>
+          </div>
+          <div className="service-item">
+            <h3>SAP ERP Solutions & Business Consulting</h3>
+            <p>ough code instead of through manual processes.
+              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            </p>
+          </div>
+
+
+
+
 
         </div>
 
@@ -131,33 +194,35 @@ const UseCase = () => {
             <button type="submit">Sign up</button>
           </form>
         </div>
-
       </div>
+
+
+
       <div className='foot'>
         <footer className="footer-container">
-        
-            <div className="footer-column">
-              <h4>Services</h4>
-              <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 2</li>
-                <li>Service 2</li>
-              </ul>
-            </div>
-            <div className="footer-column">
-              <h4>Explore</h4>
-              <ul>
-                <li>About Us</li>
-                <li>Portfolio</li>
-              </ul>
-            </div>
-            <div className="footer-column">
-              <h4>Contact</h4>
-              <p>1234 Street, City</p>
-              <p>Email: info@example.com</p>
-            </div>
-          
+
+          <div className="footer-column">
+            <h4>Services</h4>
+            <ul>
+              <li>Service 1</li>
+              <li>Service 2</li>
+              <li>Service 2</li>
+              <li>Service 2</li>
+            </ul>
+          </div>
+          <div className="footer-column">
+            <h4>Explore</h4>
+            <ul>
+              <li>About Us</li>
+              <li>Portfolio</li>
+            </ul>
+          </div>
+          <div className="footer-column">
+            <h4>Contact</h4>
+            <p>1234 Street, City</p>
+            <p>Email: info@example.com</p>
+          </div>
+
         </footer>
       </div>
     </div>
