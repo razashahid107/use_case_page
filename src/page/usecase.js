@@ -84,14 +84,14 @@ const UseCase = () => {
         <div className="services-container" >
           <div className="service-item">
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>Data and artificial intelligence</h1>
-            <p>We unlock insights for your business like never before using cutting-edge technologies of machine learning and in-depth data analytics.
+            <p style={{border:'0px'}}>We unlock insights for your business like never before using cutting-edge technologies of machine learning and in-depth data analytics.
             </p>
             <button className='rounded-corners' style={{ position:'absolute', bottom:'0', left:'100', }}>Learn more</button>
           </div>
           <div className="service-item">
             {/* <h1>Enterprise software development</h1> */}
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>Enterprise software development</h1>
-            <p>Our software development team can help you modernize your enterprise to achieve higher operational efficiency, automate processes, and increase customer satisfaction.
+            <p style={{border:'0px'}}>Our software development team can help you modernize your enterprise to achieve higher operational efficiency, automate processes, and increase customer satisfaction.
             </p>
             <button className='rounded-corners' style={{ position:'absolute', bottom:'0', left:'100' }}>Learn more</button>
 
@@ -100,55 +100,55 @@ const UseCase = () => {
             {/* <h1>Web app development</h1> */}
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>Web app development</h1>
 
-            <p>We use rapid development methodologies incorporating MVC frameworks and interactive Javascript-based front ends to build robust web apps that enrich users.
+            <p style={{border:'0px'}}>We use rapid development methodologies incorporating MVC frameworks and interactive Javascript-based front ends to build robust web apps that enrich users.
             </p>
             <button className='rounded-corners' style={{ position:'absolute', bottom:'0', left:'100', }}>Learn more</button>
           </div>
           <div className="service-item">
             {/* <h1>Mobile app development</h1> */}
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>Mobile app development</h1>
-            <p>We've been building award-winning apps for over a decade for mobile operating systems from the Symbian and Blackberry days right up to Android and iOS.
+            <p style={{border:'0px'}}>We've been building award-winning apps for over a decade for mobile operating systems from the Symbian and Blackberry days right up to Android and iOS.
             </p>
             <button className='rounded-corners' style={{ position:'absolute', bottom:'0', left:'100', }}>Learn more</button>
           </div>
           <div className="service-item">
             {/* <h1>Education technology services</h1> */}
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>Education technology services</h1>
-            <p>As a trusted partner of edX, we can develop unique platforms and provide a comprehensive range of services, all under one roof.
+            <p style={{border:'0px'}}>As a trusted partner of edX, we can develop unique platforms and provide a comprehensive range of services, all under one roof.
             <button className='rounded-corners' style={{ position:'absolute', bottom:'0', left:'100', }}>Learn more</button>
             </p>
           </div><div className="service-item">
             {/* <h1>QA and software testing services</h1> */}
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>QA and software testing services</h1>
-            <p>We strive for excellence over success. That’s why we provide QA testing both as an independent service and as a part of every project we undertake.
+            <p style={{border:'0px'}}>We strive for excellence over success. That’s why we provide QA testing both as an independent service and as a part of every project we undertake.
             </p>
             <button className='rounded-corners' style={{ position:'absolute', bottom:'0', left:'100', }}>Learn more</button>
           </div>
           <div className="service-item">
             {/* <h1>UX, product, and design</h1> */}
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>UX, product, and design</h1>
-            <p>Our teams are adept at creating engaging, interactive, and user-centric designs using product strategy to increase conversions, decrease customer churn, and promote customer loyalty.
+            <p style={{border:'0px'}}>Our teams are adept at creating engaging, interactive, and user-centric designs using product strategy to increase conversions, decrease customer churn, and promote customer loyalty.
             </p>
             <button className='rounded-corners' style={{ position:'absolute', bottom:'0', left:'100', }}>Learn more</button>
           </div>
           <div className="service-item">
             {/* <h1>Web scraping</h1> */}
-            <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>Web scraping</h1>
-            <p>Through automated and semi-automated data scraping, data sanitization, and analysis tools, we are able to provide you with key insights and integrate them into the software that drives your business forward.
+            <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca',border:'0px' }}>Web scraping</h1>
+            <p style={{border:'0px'}}>Through automated and semi-automated data scraping, data sanitization, and analysis tools, we are able to provide you with key insights and integrate them into the software that drives your business forward.
             </p>
             <button className='rounded-corners' style={{ position:'absolute', bottom:'0', left:'100', }}>Learn more</button>
           </div>
           <div className="service-item">
             {/* <h1>Cyber security</h1> */}
-            <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>Cyber security</h1>
-            <p>We provide your business with a secure digital infrastructure that can help you manage security risks when handling sensitive data.
+            <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca', border:'0px' }}>Cyber security</h1>
+            <p style={{border:'0px'}}>We provide your business with a secure digital infrastructure that can help you manage security risks when handling sensitive data.
             </p>
-            <button className='rounded-corners' style={{ position:'absolute', bottom:'0', left:'100', }}>Learn more</button>
+            <button className='rounded-corners' style={{ position:'absolute', bottom:'0', left:'100', backgroundColor:'white', borderColor:'grey'}}>Learn more</button>
           </div>
           <div className="service-item">
             {/* <h1>DevOps solutions</h1> */}
-            <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>DevOps solutions</h1>
-            <p>We provide your business with a secure digital infrastructure that can help you manage security risks when handling sensitive data.
+            <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca',border:'0px' }}>DevOps solutions</h1>
+            <p style={{border:'0px'}}>We provide your business with a secure digital infrastructure that can help you manage security risks when handling sensitive data.
             </p>
             <button className='rounded-corners' style={{ position:'absolute', bottom:'0', left:'100', }}>Learn more</button>
           </div>
