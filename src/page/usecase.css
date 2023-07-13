@@ -50,16 +50,24 @@
     /* padding: 0 10% 0 50%; */
     display: grid;
     /* grid-template-columns: repeat(2, minmax(250px, 1fr)); */
-    grid-template-columns: 370px 370px;
-    grid-template-rows: 400px 400px;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 500px 500px;
     /* display: flex;*/
     justify-content: center; 
     grid-gap: 50px 50px;
 }
 
 .service-item {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
+    border: solid;
+    border-color: #d1d1d1;
     padding: 20px;
+}
+.services-container :hover {
+    /* border: solid 10px; */
+    border-bottom: 10px solid #0070f8;
+
+    /* border-color: rgb(0, 17, 174); */
 }
 
 .section-divider {

@@ -83,62 +83,71 @@ const UseCase = () => {
         {/* <br/> */}
         <div className="services-container" >
           <div className="service-item">
-            <h3>SAP ERP Solutions & Business Consulting</h3>
-            <p>ough code instead of through manual processes.
-              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            <h1 style={{ color: 'unset', fontSize: '65px', fontFamily: 'Unna' }}><b>Data and artificial intelligence</b></h1>
+            <p>We unlock insights for your business like never before using cutting-edge technologies of machine learning and in-depth data analytics.
             </p>
           </div>
           <div className="service-item">
-            <h3>Qlik Analytics & Data Integration Platform</h3>
-            <p>ough code instead of through manual processes.
-              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            {/* <h1>Enterprise software development</h1> */}
+            <h1 style={{ color: 'unset', fontSize: '65px', fontFamily: 'Unna' }}><b>Enterprise software development</b></h1>
+
+            <p>Our software development team can help you modernize your enterprise to achieve higher operational efficiency, automate processes, and increase customer satisfaction.
             </p>
           </div>
           <div className="service-item">
-            <h3>Enterprise Cloud Solutions</h3>
-            <p>ough code instead of through manual processes.
-              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            {/* <h1>Web app development</h1> */}
+            <h1 style={{ color: 'unset', fontSize: '65px', fontFamily: 'Unna' }}><b>Web app development</b></h1>
+
+            <p>We use rapid development methodologies incorporating MVC frameworks and interactive Javascript-based front ends to build robust web apps that enrich users.
             </p>
           </div>
           <div className="service-item">
-            <h3>Enterprise Cloud Solutions</h3>
-            <p>ough code instead of through manual processes.
-              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            {/* <h1>Mobile app development</h1> */}
+            <h1 style={{ color: 'unset', fontSize: '65px', fontFamily: 'Unna' }}><b>Mobile app development</b></h1>
+
+            <p>We've been building award-winning apps for over a decade for mobile operating systems from the Symbian and Blackberry days right up to Android and iOS.
             </p>
           </div>
           <div className="service-item">
-            <h3>SAP ERP Solutions & Business Consulting</h3>
-            <p>ough code instead of through manual processes.
-              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            {/* <h1>Education technology services</h1> */}
+            <h1 style={{ color: 'unset', fontSize: '65px', fontFamily: 'Unna' }}><b>Education technology services</b></h1>
+
+            <p>As a trusted partner of edX, we can develop unique platforms and provide a comprehensive range of services, all under one roof.
             </p>
           </div><div className="service-item">
-            <h3>SAP ERP Solutions & Business Consulting</h3>
-            <p>ough code instead of through manual processes.
-              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            {/* <h1>QA and software testing services</h1> */}
+            <h1 style={{ color: 'unset', fontSize: '65px', fontFamily: 'Unna' }}><b>QA and software testing services</b></h1>
+
+            <p>We strive for excellence over success. That’s why we provide QA testing both as an independent service and as a part of every project we undertake.
             </p>
           </div>
           <div className="service-item">
-            <h3>SAP ERP Solutions & Business Consulting</h3>
-            <p>ough code instead of through manual processes.
-              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            {/* <h1>UX, product, and design</h1> */}
+            <h1 style={{ color: 'unset', fontSize: '65px', fontFamily: 'Unna' }}><b>UX, product, and design</b></h1>
+
+
+            <p>Our teams are adept at creating engaging, interactive, and user-centric designs using product strategy to increase conversions, decrease customer churn, and promote customer loyalty.
             </p>
           </div>
           <div className="service-item">
-            <h3>SAP ERP Solutions & Business Consulting</h3>
-            <p>ough code instead of through manual processes.
-              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            {/* <h1>Web scraping</h1> */}
+            <h1 style={{ color: 'unset', fontSize: '65px', fontFamily: 'Unna' }}><b>Web scraping</b></h1>
+
+            <p>Through automated and semi-automated data scraping, data sanitization, and analysis tools, we are able to provide you with key insights and integrate them into the software that drives your business forward.
             </p>
           </div>
           <div className="service-item">
-            <h3>SAP ERP Solutions & Business Consulting</h3>
-            <p>ough code instead of through manual processes.
-              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            {/* <h1>Cyber security</h1> */}
+            <h1 style={{ color: 'unset', fontSize: '65px', fontFamily: 'Unna' }}><b>Cyber security</b></h1>
+
+            <p>We provide your business with a secure digital infrastructure that can help you manage security risks when handling sensitive data.
             </p>
           </div>
           <div className="service-item">
-            <h3>SAP ERP Solutions & Business Consulting</h3>
-            <p>ough code instead of through manual processes.
-              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
+            {/* <h1>DevOps solutions</h1> */}
+            <h1 style={{ color: 'unset', fontSize: '65px', fontFamily: 'Unna' }}><b>DevOps solutions</b></h1>
+
+            <p>We provide your business with a secure digital infrastructure that can help you manage security risks when handling sensitive data.
             </p>
           </div>
 
