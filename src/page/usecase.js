@@ -83,14 +83,17 @@ const UseCase = () => {
         {/* <br/> */}
         <div className="services-container" >
           <div className="service-item">
-            <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{height:'35%'}}></img>
-            <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>Data and artificial intelligence</h1>
-            <p style={{}}>We unlock insights for your business like never before using cutting-edge technologies of machine learning and in-depth data analytics.
-            </p>
-            <button className='rounded-corners'>Learn more</button>
+            {/* <div class='content-container'>  */}
+              <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{height:'30%', padding:'10% 0 0 5%'}}></img>
+              <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>Data and artificial intelligence</h1>
+              <p style={{}}>We unlock insights for your business like never before using cutting-edge technologies of machine learning and in-depth data analytics.
+              </p>
+              <button className='rounded-corners'>Learn more</button>
+            {/* </div> */}
           </div>
           <div className="service-item">
             {/* <h1>Enterprise software development</h1> */}
+            <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{height:'30%', padding:'10% 0 0 5%'}}></img>
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>Enterprise software development</h1>
             <p style={{}}>Our software development team can help you modernize your enterprise to achieve higher operational efficiency, automate processes, and increase customer satisfaction.
             </p>
@@ -99,6 +102,7 @@ const UseCase = () => {
           </div>
           <div className="service-item">
             {/* <h1>Web app development</h1> */}
+            <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{height:'30%', padding:'10% 0 0 5%'}}></img>
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>Web app development</h1>
 
             <p style={{}}>We use rapid development methodologies incorporating MVC frameworks and interactive Javascript-based front ends to build robust web apps that enrich users.
@@ -106,6 +110,7 @@ const UseCase = () => {
             <button className='rounded-corners'>Learn more</button>
           </div>
           <div className="service-item">
+            <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{height:'30%', padding:'10% 0 0 5%'}}></img>
             {/* <h1>Mobile app development</h1> */}
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>Mobile app development</h1>
             <p style={{}}>We've been building award-winning apps for over a decade for mobile operating systems from the Symbian and Blackberry days right up to Android and iOS.
@@ -114,12 +119,14 @@ const UseCase = () => {
           </div>
           <div className="service-item">
             {/* <h1>Education technology services</h1> */}
+            <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{height:'30%', padding:'10% 0 0 5%'}}></img>
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>Education technology services</h1>
             <p style={{}}>As a trusted partner of edX, we can develop unique platforms and provide a comprehensive range of services, all under one roof.
             <button className='rounded-corners' style={{  }}>Learn more</button>
             </p>
           </div><div className="service-item">
             {/* <h1>QA and software testing services</h1> */}
+            <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{height:'30%', padding:'10% 0 0 5%'}}></img>
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>QA and software testing services</h1>
             <p style={{border:'0px'}}>We strive for excellence over success. That’s why we provide QA testing both as an independent service and as a part of every project we undertake.
             </p>
@@ -127,6 +134,7 @@ const UseCase = () => {
           </div>
           <div className="service-item">
             {/* <h1>UX, product, and design</h1> */}
+            <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{height:'30%', padding:'10% 0 0 5%'}}></img>
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>UX, product, and design</h1>
             <p style={{border:'0px'}}>Our teams are adept at creating engaging, interactive, and user-centric designs using product strategy to increase conversions, decrease customer churn, and promote customer loyalty.
             </p>
@@ -134,6 +142,7 @@ const UseCase = () => {
           </div>
           <div className="service-item">
             {/* <h1>Web scraping</h1> */}
+            <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{height:'30%', padding:'10% 0 0 5%'}}></img>
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca',border:'0px' }}>Web scraping</h1>
             <p style={{border:'0px'}}>Through automated and semi-automated data scraping, data sanitization, and analysis tools, we are able to provide you with key insights and integrate them into the software that drives your business forward.
             </p>
@@ -141,6 +150,7 @@ const UseCase = () => {
           </div>
           <div className="service-item">
             {/* <h1>Cyber security</h1> */}
+            <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{height:'30%', padding:'10% 0 0 5%'}}></img>
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>Cyber security</h1>
             <p style={{border:'0px'}}>We provide your business with a secure digital infrastructure that can help you manage security risks when handling sensitive data.
             </p>
@@ -148,6 +158,7 @@ const UseCase = () => {
           </div>
           <div className="service-item">
             {/* <h1>DevOps solutions</h1> */}
+            <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{height:'30%', padding:'10% 0 0 5%'}}></img>
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>DevOps solutions</h1>
             <p style={{}}>We provide your business with a secure digital infrastructure that can help you manage security risks when handling sensitive data.
             </p>
