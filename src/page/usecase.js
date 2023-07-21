@@ -83,6 +83,7 @@ const UseCase = () => {
         {/* <br/> */}
         <div className="services-container" >
           <div className="service-item">
+            <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{height:'35%'}}></img>
             <h1 style={{ color: 'unset', fontSize: '55px', fontFamily: 'Ungaraca' }}>Data and artificial intelligence</h1>
             <p style={{}}>We unlock insights for your business like never before using cutting-edge technologies of machine learning and in-depth data analytics.
             </p>

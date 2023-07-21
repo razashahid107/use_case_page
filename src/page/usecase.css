@@ -1,6 +1,7 @@
 .main {
     padding: 0 7% 0 7%;
 }
+
 /* .base-page {
     background-color: #f2f2f2;
     padding: 20px;
@@ -51,23 +52,29 @@
     display: grid;
     /* grid-template-columns: repeat(2, minmax(250px, 1fr)); */
     grid-template-columns: 450px 450px !important;
-    grid-template-rows: 450px 450px !important;
+    grid-template-rows: 550px 550px !important;
     /* background-color: #000; */
     /* display: flex;*/
-    justify-content: center; 
+    justify-content: center;
     /* overflow-y: scroll; */
     grid-gap: 50px 50px;
     /* height: 100vh; */
 
 }
+
 .rounded-corners {
     border-radius: 25px;
     /* position:'absolute' !important; */
     position: absolute;
-    bottom:30px;
-    left:30px;
+    bottom: 30px;
+    left: 30px;
     border: 0px;
-  }
+}
+
+.rounded-corners :hover {
+    background-color: black;
+
+}
 
 .service-item {
     background-color: #ffffff;
@@ -75,30 +82,40 @@
     position: relative;
     border-color: #d1d1d1;
     padding: 20px;
-    height: 450px;
+    height: 550px;
     /* grid-template-columns: 450px 450px !important; 
     grid-template-rows: 450px 450px !important; */
 
 }
+
 /* .service-item h1,p {
     border:'0px'
 } */
-.services-container :hover {
+.services-container button {
     /* border: solid 10px; */
     /* border-bottom: 10px solid #0070f8; */
-    
+
     /* border-color: rgb(0, 17, 174); */
 }
-/* .services-container rounded-corners :hover{
-    background-color: #498fe4;
-} */
 
-.service-item p,h1 {
-    border:0px !important;
+.services-container .rounded-corners :hover {
+    background-color: #498fe4;
 }
-.service-item .rounded-corners :hover{
+.services-container :hover{
+    border-bottom: 10px solid rgb(4, 130, 255);
+    transition: color 0.5s ease-in-out;
+}
+
+.service-item p,
+h1, button, img {
     border: 0px !important;
 }
+
+
+/* .service-item .rounded-corners :hover{
+     border: 0px !important; 
+    background-color: black;
+} */
 .section-divider {
     height: 2px;
     background-color: #000;
@@ -131,7 +148,7 @@
 }
 
 .footer-column ul {
-    list-style: none;
+    list-style: non e;
     padding: 0;
 }
 
