@@ -94,22 +94,14 @@
 
 }
 
-/* .service-item h1,p {
-    border:'0px'
-} */
-.services-container button {
-    /* border: solid 10px; */
-    /* border-bottom: 10px solid #0070f8; */
 
-    /* border-color: rgb(0, 17, 174); */
-}
 
 /* .services-container .rounded-corners :hover {
     background-color: #498fe4;
 } */
 .services-container :hover {
     border-bottom: 10px solid rgb(22, 118, 213);
-    
+
     /* transition: width 2s linear 1s; */
 }
 
@@ -153,17 +145,19 @@ img {
 
 .footer-container {
     /* background-color: rgb(47, 77, 167); */
-    background-color: #0d3f8a;
     color: white;
     padding: 5% 10% 5% 10%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+.footer-container-1{
+    padding: 3% 10% 3% 10%;
+    color: white;
+}
 .foot {
-    /* padding: 5%; */
-    /* display: flex; */
+    background-color: #0d3f8a;
+
     justify-content: center;
 
 }

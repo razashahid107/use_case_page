@@ -218,30 +218,27 @@ const UseCase = () => {
 
 
       <div className='foot'>
-        
-        <footer className="footer-container">
+        <div className='footer-container-1'>
           <p>For job opportunities, reach out to pod@arbisoft.com</p>
           <p>For business enquiries, reach out to contact@arbisoft.com</p>
+        </div>
+        <div className='footer-container-1'>
+          <img src='./mail.png' style={{float:'right'}}></img>
+        </div>
+        <footer className="footer-container">
+          {/* <div><img src='mail.png'></img></div> */}
           <div className="footer-column">
-            <h4>Services</h4>
-            <ul>
-              <li>Service 1</li>
-              <li>Service 2</li>
-              <li>Service 2</li>
-              <li>Service 2</li>
-            </ul>
+            <p>1 (469) 215 2958
+              2035 Central Cir Suite #201 McKinney, TX 75069</p>
           </div>
           <div className="footer-column">
-            <h4>Explore</h4>
-            <ul>
-              <li>About Us</li>
-              <li>Portfolio</li>
-            </ul>
+            <p>49 157 39369191
+              Köpenicker Str. 40, Berlin, Germany 10179</p>
           </div>
           <div className="footer-column">
-            <h4>Contact</h4>
-            <p>1234 Street, City</p>
-            <p>Email: info@example.com</p>
+            <p>(042) 37498533
+              25 Canal Rd, Westwood Colony Lahore, Punjab 54000</p>
+
           </div>
 
         </footer>
