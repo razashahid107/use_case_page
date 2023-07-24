@@ -85,7 +85,7 @@ const UseCase = () => {
           <div className="service-item">
             {/* <div class='content-container'>  */}
             <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{ height: '30%', padding: '10% 0 0 5%' }}></img>
-            <h2 style={{ color: 'unset', fontFamily: 'Ungaraca', fontWeight: 'bold' }}>Data and artificial intelligence</h2>
+            <h1 style={{ color: 'unset', fontFamily: 'Ungaraca', fontWeight: 'bold' }}>Data and artificial intelligence</h1>
             <p style={{}}>We unlock insights for your business like never before using cutting-edge technologies of machine learning and in-depth data analytics.
             </p>
             <button className='rounded-corners'>Learn more</button>
