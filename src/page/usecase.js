@@ -63,14 +63,7 @@ const UseCase = () => {
             </a>
           </div>
 
-          {/* <div class="background-image-text-p">
-              <p style={{ fontStyle: 'italic' }}>
-                We take care of everything from devising strategies to deploying<br />
-                products with our dedicated teams of developers, software<br />
-                architects, and project managers.<br />
-              </p>
-            </div> */}
-          {/* <imag src="" /><h3>Let's start your project</h3> */}
+
         </div>
       </div>
 
@@ -85,8 +78,8 @@ const UseCase = () => {
           <div className="service-item">
             {/* <div class='content-container'>  */}
             <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{ height: '30%', padding: '10% 0 0 5%' }}></img>
-            <h1 style={{ color: 'unset', fontFamily: 'Ungaraca', fontWeight: 'bold' }}>Data and artificial intelligence</h1>
-            <p style={{}}>We unlock insights for your business like never before using cutting-edge technologies of machine learning and in-depth data analytics.
+            <h3 className='service-item-heading'>Data and artificial intelligence</h3>
+            <p className='service-item-p'>We unlock insights for your business like never before using cutting-edge technologies of machine learning and in-depth data analytics.
             </p>
             <button className='rounded-corners'>Learn more</button>
             {/* </div> */}
@@ -94,8 +87,8 @@ const UseCase = () => {
           <div className="service-item">
             {/* <h1>Enterprise software development</h1> */}
             <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{ height: '30%', padding: '10% 0 0 5%' }}></img>
-            <h1 style={{ color: 'unset', fontWeight: 'bold', fontFamily: 'Ungaraca' }}>Enterprise software development</h1>
-            <p style={{}}>Our software development team can help you modernize your enterprise to achieve higher operational efficiency, automate processes, and increase customer satisfaction.
+            <h3 className='service-item-heading'>Enterprise software development</h3>
+            <p className='service-item-p'>Our software development team can help you modernize your enterprise to achieve higher operational efficiency, automate processes, and increase customer satisfaction.
             </p>
             <button className='rounded-corners' >Learn more</button>
 
@@ -103,116 +96,68 @@ const UseCase = () => {
           <div className="service-item">
             {/* <h1>Web app development</h1> */}
             <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{ height: '30%', padding: '10% 0 0 5%' }}></img>
-            <h1 style={{ color: 'unset', fontWeight: 'bold', fontFamily: 'Ungaraca' }}>Web app development</h1>
+            <h3 className='service-item-heading'>Web app development</h3>
 
-            <p style={{}}>We use rapid development methodologies incorporating MVC frameworks and interactive Javascript-based front ends to build robust web apps that enrich users.
+            <p className='service-item-p'>We use rapid development methodologies incorporating MVC frameworks and interactive Javascript-based front ends to build robust web apps that enrich users.
             </p>
             <button className='rounded-corners'>Learn more</button>
           </div>
           <div className="service-item">
             <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{ height: '30%', padding: '10% 0 0 5%' }}></img>
             {/* <h1>Mobile app development</h1> */}
-            <h1 style={{ color: 'unset', fontWeight: 'bold', fontFamily: 'Ungaraca' }}>Mobile app development</h1>
-            <p style={{}}>We've been building award-winning apps for over a decade for mobile operating systems from the Symbian and Blackberry days right up to Android and iOS.
+            <h3 className='service-item-heading'>Mobile app development</h3>
+            <p className='service-item-p'>We've been building award-winning apps for over a decade for mobile operating systems from the Symbian and Blackberry days right up to Android and iOS.
             </p>
             <button className='rounded-corners'>Learn more</button>
           </div>
           <div className="service-item">
             {/* <h1>Education technology services</h1> */}
             <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{ height: '30%', padding: '10% 0 0 5%' }}></img>
-            <h1 style={{ color: 'unset', fontWeight: 'bold', fontFamily: 'Ungaraca' }}>Education technology services</h1>
-            <p style={{}}>As a trusted partner of edX, we can develop unique platforms and provide a comprehensive range of services, all under one roof.
+            <h3 className='service-item-heading'>Education technology services</h3>
+            <p className='service-item-p'>As a trusted partner of edX, we can develop unique platforms and provide a comprehensive range of services, all under one roof.
               <button className='rounded-corners' style={{}}>Learn more</button>
             </p>
           </div>
           <div className="service-item">
-            {/* <h1>QA and software testing services</h1> */}
             <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{ height: '30%', padding: '10% 0 0 5%' }}></img>
-            <h1 style={{ color: 'unset', fontWeight: 'bold', fontFamily: 'Ungaraca' }}>QA and software testing services</h1>
-            <p style={{ border: '0px' }}>We strive for excellence over success. That’s why we provide QA testing both as an independent service and as a part of every project we undertake.
+            <h3 className='service-item-heading'>QA and software testing services</h3>
+            <p className='service-item-p'>We strive for excellence over success. That’s why we provide QA testing both as an independent service and as a part of every project we undertake.
             </p>
             <button className='rounded-corners' >Learn more</button>
           </div>
           <div className="service-item">
-            {/* <h1>UX, product, and design</h1> */}
             <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{ height: '30%', padding: '10% 0 0 5%' }}></img>
-            <h1 style={{ color: 'unset', fontWeight: 'bold', fontFamily: 'Ungaraca' }}>UX, product, and design</h1>
-            <p style={{ border: '0px' }}>Our teams are adept at creating engaging, interactive, and user-centric designs using product strategy to increase conversions, decrease customer churn, and promote customer loyalty.
+            <h3 className='service-item-heading'>UX, product, and design</h3>
+            <p className='service-item-p'>Our teams are adept at creating engaging, interactive, and user-centric designs using product strategy to increase conversions, decrease customer churn, and promote customer loyalty.
             </p>
             <button className='rounded-corners' style={{}}>Learn more</button>
           </div>
           <div className="service-item">
             {/* <h1>Web scraping</h1> */}
             <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{ height: '30%', padding: '10% 0 0 5%' }}></img>
-            <h1 style={{ color: 'unset', fontWeight: 'bold', fontFamily: 'Ungaraca', border: '0px' }}>Web scraping</h1>
-            <p style={{ border: '0px' }}>Through automated and semi-automated data scraping, data sanitization, and analysis tools, we are able to provide you with key insights and integrate them into the software that drives your business forward.
+            <h3 className='service-item-heading'>Web scraping</h3>
+            <p className='service-item-p'>Through automated and semi-automated data scraping, data sanitization, and analysis tools, we are able to provide you with key insights and integrate them into the software that drives your business forward.
             </p>
-            <button className='rounded-corners' style={{}}>Learn more</button>
+            <button className='rounded-corners'>Learn more</button>
           </div>
           <div className="service-item">
             {/* <h1>Cyber security</h1> */}
             <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{ height: '30%', padding: '10% 0 0 5%' }}></img>
-            <h1 style={{ color: 'unset', fontWeight: 'bold', fontFamily: 'Ungaraca' }}>Cyber security</h1>
-            <p style={{ border: '0px' }}>We provide your business with a secure digital infrastructure that can help you manage security risks when handling sensitive data.
+            <h3 className='service-item-heading'>Cyber security</h3>
+            <p className='service-item-p'>We provide your business with a secure digital infrastructure that can help you manage security risks when handling sensitive data.
             </p>
             <button className='rounded-corners' style={{}}>Learn more</button>
           </div>
           <div className="service-item">
-            {/* <h1>DevOps solutions</h1> */}
             <img src='https://images.ctfassets.net/o0a5sen1qlbz/6yhxU7KwIPvusqxbFEoXqp/b22587ae01a84a94e69b7b425ba416f2/Group.png' style={{ height: '30%', padding: '10% 0 0 5%' }}></img>
-            <h1 style={{ color: 'unset', fontWeight: 'bold', fontFamily: 'Ungaraca' }}>DevOps solutions</h1>
-            <p style={{}}>We provide your business with a secure digital infrastructure that can help you manage security risks when handling sensitive data.
+            <h3 className='service-item-heading'>DevOps solutions</h3>
+            <p className='service-item-p'>We provide your business with a secure digital infrastructure that can help you manage security risks when handling sensitive data.
             </p>
             <button className='rounded-corners' style={{}}>Learn more</button>
           </div>
         </div>
 
         <div className="section-divider"></div>
-        {/* <h2 className='heading' style={{ fontWeight: "bold" }}><i> Why choose us? </i></h2>
-        <br />
-
-        <div className='customer-reviews-container'>
-          <div className='review-item'>
-            <h3>Review 1</h3>
-            <p>ough code instead of through manual processes.
-              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
-            </p>
-          </div>
-          <div className='review-item'>
-            <h3>Reveiw 2</h3>
-            <p>ough code instead of through manual processes.
-              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
-            </p>
-          </div>
-          <div className='review-item'>
-            <h3>Reveiw 3</h3>
-            <p>ough code instead of through manual processes.
-              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
-            </p>
-          </div>
-          <div className='review-item'>
-            <h3>Reveiw 4</h3>
-            <p>ough code instead of through manual processes.
-              With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids configuration management and helps you to avoid undocumented, ad-hoc configuration changes.
-            </p>
-          </div>
-        </div>
-
-        <div className="section-divider"></div>
-        <div className="signup-form-container">
-          <h2 className='heading' style={{ fontWeight: "bolder" }}><i> LET’S START SOMETHING NEW THEN? </i></h2>
-          <h2>Sign up for our Services</h2>
-          <form>
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="Email" />
-            <input type="text" placeholder="City" />
-            <input type="text" placeholder="Country" />
-            <input type="text" placeholder="Postal Code" />
-            <input type="text" placeholder="Services Required" />
-
-            <button type="submit">Sign up</button>
-          </form>
-        </div> */}
       </div>
 
 
@@ -223,7 +168,7 @@ const UseCase = () => {
           <p>For business enquiries, reach out to contact@arbisoft.com</p>
         </div>
         <div className='footer-container-1'>
-          <img src='./mail.png' style={{float:'right'}}></img>
+          <img src='./mail.png' style={{ float: 'right' }}></img>
         </div>
         <footer className="footer-container">
           {/* <div><img src='mail.png'></img></div> */}
@@ -238,10 +183,16 @@ const UseCase = () => {
           <div className="footer-column">
             <p>(042) 37498533
               25 Canal Rd, Westwood Colony Lahore, Punjab 54000</p>
-
           </div>
 
         </footer>
+        <div className='section-divider'></div>
+        <div className='footer-container-2'>
+          <div className='footer-column'>© 2023 Arbisoft. All Rights Reserved.</div>
+          <div className='footer-column'>Privacy Policy</div>
+          <div className='footer-column'>Security Policy</div>
+          <div className='footer-column'>Imprint</div>
+        </div>
       </div>
     </div>
 
